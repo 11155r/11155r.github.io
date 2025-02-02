@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>小赵的个人主页 | 期待遇见你</title>
+    <meta name="description" content="真诚寻找人生伴侣">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- 新增渐变粉色背景 -->
+    <style>
+      :root {
+        --primary-color: #ff7ea8;
+        --secondary-color: #ffb6c1;
+      }
+      .bg-pink {
+        background: linear-gradient(135deg, #ffb6c1 0%, #ff7ea8 100%);
+      }
+      .hero h1 {
+        font-size: 3.5rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+      }
+    </style>
+
+    <!-- 其他头部内容保持不变 -->
+  </head>
+  <body>
+    <div class="main">
+      <!-- 在Banner新增家乡标识 -->
+      <section class="bg-cover bg-center hero" style="background-image: url(img/main-bg.jpg)">
+        <div class="dark-overlay"></div>
+        <div class="position-relative z-index-1">
+          <div class="container text-center text-white">
+            <p class="lead">来自江西抚州的高质量男性</p>  <!-- 新增 -->
+            <h1 class="text-uppercase my-4">我是小赵</h1>
+            <p class="h4">92年天秤座 | 互联网产品经理 | 江西定居</p>
+            <p class="h5 mt-3">希望在这里遇见<span class="text-warning">三观契合</span>的你</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 修改后的关于我部分 -->
+      <section id="about">
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <header class="text-center">
+                  <h2 class="text-uppercase lined">关于我</h2>
+                </header>
+                <ul class="list-unstyled lead">
+                  <li>📌 基本信息：180cm/70kg | 八块腹肌</li>  <!-- 新增体型 -->
+                  <li>🎓 教育背景：东华理工大学本科 </li>  <!-- 修改 -->
+                  <li>🏠 家乡坐标：江西抚州东乡区</li>  <!-- 新增 -->
+                  <li>💼 职业发展：大厂高级产品经理</li>
+                  <li>❤️ 性格标签：阳光幽默 | 责任心强 | 会做饭</li>
+                </ul>
+                <blockquote class="blockquote">
+                  <p class="mb-0">" 最好的关系是互相成就，期待和你一起看遍世间美好 "</p>
+                </blockquote>
+              </div>
+              <!-- 图片部分保持不变 -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 在优势部分新增健康标签 -->
+      <section class="bg-gray">
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <!-- 原有结构不变 -->
+            <div class="row text-center">
+              <div class="col-lg-3 col-md-6 mb-4">  <!-- 改为4列布局 -->
+                <div class="icon mb-3"><i class="fas fa-dumbbell"></i></div>  <!-- 新增图标 -->
+                <h4>健康体魄</h4>
+                <p>常年健身 | 八块腹肌 | 运动达人</p>  <!-- 新增 -->
+              </div>
+              <!-- 其他优势模块保持... -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 修改联系方式 -->
+      <section>
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-card p-4">
+                  <h4>📩 联系方式</h4>
+                  <p>微信：<span class="wechat-id">Zhaoge_2024</span></p>
+                  <p>邮箱：<a href="mailto:3188464455@qq.com">3188464455@qq.com</a></p>  <!-- 修改 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
